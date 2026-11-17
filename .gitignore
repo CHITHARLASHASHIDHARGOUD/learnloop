@@ -1,0 +1,50 @@
+# Environment variables & secrets
+.env
+features/.env
+*.env
+*-token.json
+secure-connect-*.zip
+
+# Local SQLite databases
+*.db
+local_users.db
+
+# Vector store cache
+faiss_index/
+features/faiss_index/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Streamlit & OS cache
+.streamlit/secrets.toml
+.DS_Store
+Thumbs.db
+
+# IDE configuration
+.idea/
+.vscode/
+*.swp
+*.swo
